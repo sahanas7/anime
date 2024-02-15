@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hinata{
+    height: 400px;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position:absolute;
+    /* background-color: blue; */
+}
+.hinata video{
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+p{
+    top: 0;
+    left: 0;
+    background-color: white;
+    padding: 40px;
+    position: absolute;
+    text-align: center;
+    height: 400px;
+    width: 100%;
+   line-height: 370px;
+   font-size: 100px;
+   z-index: 1;
+   font-family: 'Lugrasimo', cursive;
+   font-weight: bold;
+   mix-blend-mode: screen;
+}
